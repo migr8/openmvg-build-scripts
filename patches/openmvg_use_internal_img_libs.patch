@@ -1,0 +1,18 @@
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 5d909ec..71af063 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -170,9 +170,10 @@ endif()
+ # ==============================================================================
+ # IMAGE IO detection
+ # ==============================================================================
+-find_package(JPEG QUIET)
+-find_package(PNG QUIET)
+-find_package(TIFF QUIET)
++# Don't let it use system libraries:
++#find_package(JPEG QUIET)
++#find_package(PNG QUIET)
++#find_package(TIFF QUIET)
+ 
+ # Folders
+ set_property(GLOBAL PROPERTY USE_FOLDERS ON)

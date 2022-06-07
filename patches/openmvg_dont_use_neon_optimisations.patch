@@ -1,0 +1,12 @@
+diff --git a/src/third_party/png/pngpriv.h b/src/third_party/png/pngpriv.h
+index fb15134..a8ada2b 100644
+--- a/src/third_party/png/pngpriv.h
++++ b/src/third_party/png/pngpriv.h
+@@ -107,6 +107,7 @@
+  * this in $(CC), e.g. "CC=gcc -mfpu=neon", but people who build libpng rarely
+  * do this.
+  */
++#define PNG_ARM_NEON_OPT 0
+ #ifndef PNG_ARM_NEON_OPT
+    /* ARM NEON optimizations are being controlled by the compiler settings,
+     * typically the target FPU.  If the FPU has been set to NEON (-mfpu=neon

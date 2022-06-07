@@ -1,0 +1,7 @@
+diff --git a/src/third_party/tiff/VERSION /src/third_party/tiff/VERSION
+deleted file mode 100644
+index c4e41f9..0000000
+--- a/src/third_party/tiff/VERSION
++++ /dev/null
+@@ -1 +0,0 @@
+-4.0.3
