@@ -1,0 +1,18 @@
+diff --git a/src/openMVG/matching/CMakeLists.txt b/src/openMVG/matching/CMakeLists.txt
+index 2e0eafd..a8dac73 100644
+--- a/src/openMVG/matching/CMakeLists.txt
++++ b/src/openMVG/matching/CMakeLists.txt
+@@ -63,9 +63,9 @@ endif (USE_AVX)
+ 
+ install(TARGETS openMVG_matching DESTINATION lib EXPORT openMVG-targets)
+ 
+-UNIT_TEST(openMVG matching "openMVG_matching")
+-UNIT_TEST(openMVG matching_filters "openMVG_matching")
+-UNIT_TEST(openMVG indMatch "openMVG_matching")
+-UNIT_TEST(openMVG metric "openMVG_matching")
++# UNIT_TEST(openMVG matching "openMVG_matching")
++# UNIT_TEST(openMVG matching_filters "openMVG_matching")
++# UNIT_TEST(openMVG indMatch "openMVG_matching")
++# UNIT_TEST(openMVG metric "openMVG_matching")
+ 
+ add_subdirectory(kvld)

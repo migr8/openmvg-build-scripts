@@ -21,7 +21,9 @@ if [[ ! -d "openMVG" ]]; then
 
     # Otherwise ARM build fails:
     git apply $SCRIPTS_DIR/patches/openmvg_dont_use_x86_header_file.patch
+    git apply $SCRIPTS_DIR/patches/openmvg_disable_x86_tests.patch
     git apply $SCRIPTS_DIR/patches/openmvg_dont_use_neon_optimisations.patch
+
     cd -
 fi
 
